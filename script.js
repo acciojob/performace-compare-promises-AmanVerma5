@@ -25,7 +25,7 @@ async function callAllPromise(){
 		document.querySelector("#output-all").textContent = elasped;
 	})
 }
-callAllPromise();
+
 
 async function callAnyPromise(){
 	const startTime=performance.now();
@@ -39,4 +39,3 @@ async function callAnyPromise(){
 		document.querySelector("#output-any").textContent = elasped;
 	})
 }
-callAnyPromise();
